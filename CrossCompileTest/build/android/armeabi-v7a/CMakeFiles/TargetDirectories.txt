@@ -1,0 +1,3 @@
+/Users/chenfeifei/Android/CrossCompileTest/build/android/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/chenfeifei/Android/CrossCompileTest/build/android/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/chenfeifei/Android/CrossCompileTest/build/android/armeabi-v7a/CMakeFiles/myso.dir

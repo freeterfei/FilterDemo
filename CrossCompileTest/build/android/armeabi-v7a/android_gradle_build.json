@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/chenfeifei/Android/CrossCompileTest/proj.cmake/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/chenfeifei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/chenfeifei/Android/CrossCompileTest/build/android/armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"myso-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "myso",
+			"buildCommand" : "/Users/chenfeifei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/chenfeifei/Android/CrossCompileTest/build/android/armeabi-v7a --target myso",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/chenfeifei/Android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chenfeifei/Android/android-ndk-r16b/sysroot -Dmyso_EXPORTS  -isystem /Users/chenfeifei/Android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/chenfeifei/Android/CrossCompileTest/src/Native.c",
+					"workingDirectory" : "/Users/chenfeifei/Android/CrossCompileTest/build/android/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/chenfeifei/Android/CrossCompileTest/lib/armeabi-v7a/libmyso.so",
+			"toolchain" : "2462350244234522497"
+		}
+	},
+	"toolchains" : 
+	{
+		"2462350244234522497" : 
+		{
+			"cCompilerExecutable" : "/Users/chenfeifei/Android/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/chenfeifei/Android/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
